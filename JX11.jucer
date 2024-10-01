@@ -17,6 +17,9 @@
             file="Source/PluginEditor.cpp"/>
       <FILE id="mOZpr1" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
+    <FILE id="wpDTiG" name="NoiseGenerator.h" compile="0" resource="0"
+          file="Source/NoiseGenerator.h"/>
+    <FILE id="OH5Pp6" name="Utils.h" compile="0" resource="0" file="Source/Utils.h"/>
   </MAINGROUP>
   <MODULES>
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
