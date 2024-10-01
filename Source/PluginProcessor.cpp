@@ -125,11 +125,7 @@ void JX11AudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::M
         buffer.clear (i, 0, buffer.getNumSamples());
     }
 
-    for (int channel = 0; channel < totalNumInputChannels; ++channel)
-    {
-        auto* channelData = buffer.getWritePointer (channel);
-
-    }
+    splitBufferByEvents(buffer, midiMessages);
 }
 
 //==============================================================================
@@ -155,6 +151,49 @@ void JX11AudioProcessor::setStateInformation (const void* data, int sizeInBytes)
 {
     // You should use this method to restore your parameters from this memory block,
     // whose contents will have been created by the getStateInformation() call.
+}
+
+void JX11AudioProcessor::splitBufferByEvents(juce::AudioBuffer<float>& buffer,
+                                             juce::MidiBuffer& midiMessages)
+{
+    int bufferOffset = 0;
+
+    for (const auto metadata : midiMessages) {
+        // Render the audio that happens before this event (if any).
+        int samplesThisSegment = metadata.samplePosition - bufferOffset;
+        if (samplesThisSegment > 0) {
+            render(buffer, samplesThisSegment, bufferOffset);
+            bufferOffset += samplesThisSegment;
+        }
+
+        // Handle the event. Ignore MIDI messages such as sysex.
+        if (metadata.numBytes <= 3) {
+            uint8_t data1 = (metadata.numBytes >= 2) ? metadata.data[1] : 0;
+            uint8_t data2 = (metadata.numBytes == 3) ? metadata.data[2] : 0;
+            handleMIDI(metadata.data[0], data1, data2);
+        }
+    }
+
+    // Render the audio after the last MIDI event. If there were no 
+    // MIDI events at all, this renders the entire buffer.
+    int samplesLastSegment = buffer.getNumSamples() - bufferOffset;
+    if (samplesLastSegment > 0) {
+        render(buffer, samplesLastSegment, bufferOffset);
+    }
+
+    midiMessages.clear();
+}
+
+void JX11AudioProcessor::handleMIDI(uint8_t data0, uint8_t data1, uint8_t data2)
+{
+    char s[16];
+    snprintf(s, 16, "%02hhX %02hhX %02hhX", data0, data1, data2);
+    DBG(s);
+}
+
+void JX11AudioProcessor::render(juce::AudioBuffer<float> & buffer, int sampleCount, int bufferOffset)
+{
+    // do nothing yet
 }
 
 //==============================================================================

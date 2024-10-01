@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="J1igfN" name="JX11" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginFormats="buildAUv3,buildStandalone,buildVST3"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              pluginVSTCategory="kPlugCategAnalysis">
   <MAINGROUP id="zAuO66" name="JX11">
     <GROUP id="{FD0C6716-C9E9-0109-82D8-EB91C0F76B39}" name="Source">
       <FILE id="QNb67i" name="PluginProcessor.cpp" compile="1" resource="0"
