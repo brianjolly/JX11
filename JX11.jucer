@@ -6,6 +6,9 @@
               pluginVSTCategory="kPlugCategAnalysis">
   <MAINGROUP id="zAuO66" name="JX11">
     <GROUP id="{FD0C6716-C9E9-0109-82D8-EB91C0F76B39}" name="Source">
+      <FILE id="lj5V1a" name="Voice.h" compile="0" resource="0" file="Source/Voice.h"/>
+      <FILE id="J4ljdr" name="Synth.cpp" compile="1" resource="0" file="Source/Synth.cpp"/>
+      <FILE id="hbtlyB" name="Synth.h" compile="0" resource="0" file="Source/Synth.h"/>
       <FILE id="QNb67i" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="VIJyIx" name="PluginProcessor.h" compile="0" resource="0"
