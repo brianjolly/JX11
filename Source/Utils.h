@@ -10,7 +10,7 @@
 
 #pragma once
 
-inline void protectYourEars(floaat* buffer, int sampleCount)
+inline void protectYourEars(float* buffer, int sampleCount)
 {
     if (buffer == nullptr) { return; }
 
@@ -27,13 +27,13 @@ inline void protectYourEars(floaat* buffer, int sampleCount)
             DBG("!!! WARNING: sample out of range, silencing !!!");
         } else if (x < -1.0f) {
             if (firstWarning) {
-                DBG("!!! WARNING: sample out of range, claamping !!!");
+                DBG("!!! WARNING: sample out of range, clamping !!!");
                 firstWarning = false;
             }
             buffer[i] = -1.0f;
         } else if (x > 1.0f) {
             if (firstWarning) {
-                DBG("!!! WARNING: sample out of range, claamping !!!");
+                DBG("!!! WARNING: sample out of range, clamping !!!");
                 firstWarning = false;
             }
             buffer[i] = 1.0f;

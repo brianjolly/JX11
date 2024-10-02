@@ -19,6 +19,7 @@
     </GROUP>
     <FILE id="wpDTiG" name="NoiseGenerator.h" compile="0" resource="0"
           file="Source/NoiseGenerator.h"/>
+    <FILE id="UlqJzx" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
     <FILE id="OH5Pp6" name="Utils.h" compile="0" resource="0" file="Source/Utils.h"/>
   </MAINGROUP>
   <MODULES>
