@@ -24,6 +24,6 @@ struct Voice
 
     float render()
     {
-        return osc.nextSampple();
+        return osc.nextSample();
     }
 };
