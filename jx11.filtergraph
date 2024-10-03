@@ -16,7 +16,7 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="11" x="0.3369065849923431" y="0.8746438746438746" useARA="0">
+  <FILTER uid="11" x="0.3241542092840283" y="0.8588410104011887" useARA="0">
     <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="724248cb"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
@@ -32,10 +32,10 @@
     </LAYOUT>
   </FILTER>
   <FILTER uid="12" x="0.1064318529862175" y="0.6552706552706553" useARA="0"
-          uiLastX_Normal="1246" uiLastY_Normal="1042" uiopen_Normal="1">
+          uiLastX_Normal="1280" uiLastY_Normal="781" uiopen_Normal="1">
     <PLUGIN name="Scope" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="/home/bjolly/.vst3/Scope.vst3" uniqueId="f7a6dd1f"
-            isInstrument="0" fileTime="19239ffa420" infoUpdateTime="192507ee7f2"
+            isInstrument="0" fileTime="19239ffa420" infoUpdateTime="19250a7bd4b"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="acf77db8"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
@@ -52,7 +52,7 @@
           uiLastX_Normal="1252" uiLastY_Normal="1042" uiopen_Normal="0">
     <PLUGIN name="JX11" format="VST3" category="Instrument|Synth" manufacturer="yourcompany"
             version="1.0.0" file="/home/bjolly/.vst3/JX11.vst3" uniqueId="f765db1c"
-            isInstrument="1" fileTime="1924a09aca8" infoUpdateTime="192507ee7f2"
+            isInstrument="1" fileTime="1924a09aca8" infoUpdateTime="19250a7bd4b"
             numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="acf68976"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
@@ -66,7 +66,7 @@
   <FILTER uid="14" x="0.6255742725880551" y="1.080939947780679" useARA="0">
     <PLUGIN name="SIGMusic FFT Demo" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="/home/bjolly/.vst3/SIGMusic FFT Demo.vst3"
-            uniqueId="faa1dc2c" isInstrument="0" fileTime="19250492968" infoUpdateTime="192507ee7f2"
+            uniqueId="faa1dc2c" isInstrument="0" fileTime="19250492968" infoUpdateTime="19250a7bd4c"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="acf8c7fe"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
@@ -79,13 +79,31 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="16" x="0.1125574272588055" y="0.512022630834512" useARA="0">
-    <PLUGIN name="Calf Analyzer" format="LV2" category="Analyser Plugin"
-            manufacturer="Calf Studio Gear" version="" file="http://calf.sourceforge.net/plugins/Analyzer"
-            uniqueId="50cf5b0e" isInstrument="0" fileTime="192507dc240" infoUpdateTime="192507e7828"
-            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
-            uid="50cf5b0e"/>
-    <STATE>1105.7fFczAmNu7xXgwlYtL2a0I2XkY1axcVYt3VYz8BbrU2Yo41buDjagwVd5UlbuLWX1UFYSQWXzUlOJjPXf.2bkQmNPIWYyUFcfriBIvlcxnSXvAGaoU1bT8FH7fFczAmNu7xXgwlYtL2a0I2XkY1axcVYt3VYz8BbrU2Yo41buDjagwVd5Ulb9.xNJj.a1IiNv8lbzAxVJjPBrYmL5LWdsI1arAhHg4VXrkmdkI2WgM1X0IWXikmHfriBIj.byUFc5XWXrUWYfbiKvnPBcABKfrkBIj.a1IiNykWah8FafHRXtEFa4oWYx8EYoMGbrEVdh.xNJjPBvMWYzoicgwVckARLt.iBIzEHr.xVJjPBrYmL5LWdsI1arAhHg4VXrkmdkI2WlIWYkoWYh.xNJjPBvMWYzoicgwVckABLt.iBIzEHr.xVJjPBrYmL5LWdsI1arAhHg4VXrkmdkI2Wn8FajIBH6nPBI.2bkQmN1EFa0UFHv3BLJjPWfvBHaoPBIvlcxnyb40lXuwFHhDlagwVd5UlbewVY1UFah.xNJjPBvMWYzoicgwVckARLtHSMJjPWfvBHaoPBIvlcxnyb40lXuwFHhDlagwVd5Ulbe01ajUlHfriBIj.byUFc5XWXrUWYf.iKvnPBcABKfrkBIj.a1IiNykWah8FafHRXtEFa4oWYx8EbuMGch.xNJjPBvMWYzoicgwVckABLt.iBIzEHr.xVJjPBrYmL5LWdsI1arAhHg4VXrkmdkI2WyMVXrUlHfriBIj.byUFc5XWXrUWYf.iKvnPBcABKfrkBIj.a1IiNykWah8FafHRXtEFa4oWYx80bs81azgVZtclHfriBIj.byUFc5XWXrUWYfDiKvnPBcABKfrkBIj.a1IiNykWah8FafHRXtEFa4oWYx80bvUVYjIBH6nPBI.2bkQmN1EFa0UFHwTiKvnPBcABKfrkBIj.a1IiNykWah8FafHRXtEFa4oWYx8kcoU1ch.xNJjPBvMWYzoicgwVckARLt.iBIzEHr.xVJjPBrYmL5LWdsI1arAhHg4VXrkmdkI2W2klaj81co41Yh.xNJjPBvMWYzoicgwVckAhLt.iBIzEHr.xVJjPBrYmL5LWdsI1arAhHm8lao81WgM1X0IWXikmHfriBIj.byUFc5XWXrUWYfPiKvnPBcABKfrkBIj.a1IiNykWah8FafHxYu4VZu8EYoMGbrEVdh.xNJjPBvMWYzoicgwVckARLt.iBIzEHr.xVJjPBrYmL5LWdsI1arAhHm8lao81WlEFYkIBH6nPBI.2bkQmN1EFa0UFHv3RMJjPWfvBHaoPBIvlcxnyb40lXuwFHhb1atk1ae01ajUlHfriBIj.byUFc5XWXrUWYfDiKvnPBcABKfrkBIj.a1IiNykWah8FafHxYu4VZu8UcyU1WlEFYkIBH6nPBI.2bkQmN1EFa0UFHw3BLJjPWf3hBJ.</STATE>
+  <FILTER uid="17" x="0.7876106194690266" y="1.142292490118577" useARA="0">
+    <PLUGIN name="Oscilloscope x1" format="VST3" category="Fx|Tools" manufacturer="LSP VST3"
+            version="&#12544;&#11776;&#12288;&#11776;&#12800;" file="/usr/lib/vst3/lsp-plugins.vst3"
+            uniqueId="52550441" isInstrument="0" fileTime="19250a09838" infoUpdateTime="19250a7bd4c"
+            numInputs="3" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="d4fd3e67"/>
+    <STATE>440.VMjLg7Z....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCM13BSMUDUSUjKtTDSGoUYM0FYt3hKt3BTtPFMIczXt3hKHEzXPE1YmcTV0EkLh4hKt3hQYYVV3UkUYUSUF4hKt3hKFcCaiMGNwb0ct3hKlIjZAkWSVEVc3TESt3hKlsBV1IVZMYDYkUzPt3hKy7jQLICVoslLWcmKt3hK4jVP40TLXsFNUwjKt3hYqfkchISTGIVYEMjKt3hKtXDTWElZYIyU24hKt3RNoEjaucTVwfSUL4hKt3xJX4hV0DjLhUVQC4hKt3hKFg0UYoVVxb0ct3hKtbSZAESUFIVd3TESt3hKt3BVtLFdmYEYkUzPt3hKy7jQP0lXxkkLWcmKt3hKtXVP5kzQZUGNUwjKt3hKtfkKigGLwDVYEMjKt3hKPYDTsIldAIyU24hKt3RPpEjdIckVzgSUL4hKt3hKX4xX3kzUYUVQC4hKt3hK77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+        <BUS index="1" layout="C"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="20" x="0.1037613488975357" y="0.4667571234735414" useARA="0"
+          uiLastX_Normal="1280" uiLastY_Normal="0" uiopen_Normal="1">
+    <PLUGIN name="Spectrum Analyzer x2" format="VST3" category="Fx|Analyzer"
+            manufacturer="LSP VST3" version="&#12544;&#11776;&#12288;&#11776;&#12800;&#13824;"
+            file="/usr/lib/vst3/lsp-plugins.vst3" uniqueId="fadd6152" isInstrument="0"
+            fileTime="19250a09838" infoUpdateTime="19250a7bd4c" numInputs="2"
+            numOutputs="2" isShell="0" hasARAExtension="0" uid="bc84ecc"/>
+    <STATE>510.VMjLgTe....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HSN33BSMUDUSUjKtPzMrEVYAMjKt3xLOYDSxDlb3DyU14hKt3hKPEDaI0FYkEzPt3hKt3RQlY0XqgSQL4hKt3hKPYmXtgSQL4hKtX1JPYWXzgSUL4hKtX1JXYmX0cWLgUVQC4hKt3hKEgEahUCNUwjKt3hKtPkKZASUwb0ct3hKtbyPAk2Ywb0ct3hKtjyPAMWSxbkct3hKt3hYAg1ZGI1YMIiXt3hKt3BTPEVcQYUVt3hKt3BVtDldmYkVoMmQt3hKt.0PLcjXyEjKt3RNSETdAcTX0MlQt3hKy7jQXwlXqUEajsVPt3hKt.UPycmUZQWUF4hKt3hKFomQigWQwfUbA4hKtjSZAMWRWkUdUYzXt3hKt3BStLVc2YjKt3hKPMjXsElZA4hKt3hctrFMrMlKt3BTtDkKhcFLFIlKt3hYq.kYjUGNVElKt3hYqPkYhsVQwfkdvvTdLQSdtj1YrElKt3hKtvjchs1cFg0MmMETEomQgESQFElKt3hYqfDTgkWPt3hKtXmK4EjLX4hKt3hKtvyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C.</STATE>
     <LAYOUT>
       <INPUTS>
         <BUS index="0" layout="L R"/>
@@ -98,8 +116,8 @@
   <CONNECTION srcFilter="6" srcChannel="4096" dstFilter="13" dstChannel="4096"/>
   <CONNECTION srcFilter="12" srcChannel="0" dstFilter="11" dstChannel="0"/>
   <CONNECTION srcFilter="12" srcChannel="1" dstFilter="11" dstChannel="1"/>
-  <CONNECTION srcFilter="13" srcChannel="0" dstFilter="16" dstChannel="0"/>
-  <CONNECTION srcFilter="13" srcChannel="1" dstFilter="16" dstChannel="1"/>
-  <CONNECTION srcFilter="16" srcChannel="0" dstFilter="12" dstChannel="0"/>
-  <CONNECTION srcFilter="16" srcChannel="1" dstFilter="12" dstChannel="1"/>
+  <CONNECTION srcFilter="13" srcChannel="0" dstFilter="20" dstChannel="0"/>
+  <CONNECTION srcFilter="13" srcChannel="1" dstFilter="20" dstChannel="1"/>
+  <CONNECTION srcFilter="20" srcChannel="0" dstFilter="12" dstChannel="0"/>
+  <CONNECTION srcFilter="20" srcChannel="1" dstFilter="12" dstChannel="1"/>
 </FILTERGRAPH>
